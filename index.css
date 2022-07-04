@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Glimmer Regular';
+    src: url(/fonts/Gilmer-Font/Gilmer\ Regular.otf);
+}
+@font-face {
+    font-family: 'Glimmer Outline';
+    src: url(/fonts/Gilmer-Font/Gilmer\ Medium.otf);
+}
+@font-face {
+    font-family: 'Glimmer Medium';
+    src: url(/fonts/Gilmer-Font/Gilmer\ Medium.otf);
+}
+@font-face {
+    font-family: 'Glimmer Light';
+    src: url(/fonts/Gilmer-Font/Gilmer\ Light.otf);
+}
+@font-face {
+    font-family: 'Glimmer Heavy';
+    src: url(/fonts/Gilmer-Font/Gilmer\ Heavy.otf);
+}
+@font-face {
+    font-family: 'Glimmer Bold';
+    src: url(/fonts/Gilmer-Font/Gilmer\ Bold.otf);
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, #16202a, #2b0c1c);
+}
+.logoimg{
+width: 7.5em;
+}
+.header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3em 3.1em;
+}
+.nav-menu {
+    box-sizing: border-box;
+    padding: 0.3em 0;
+}
+.nav-menu a{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: hsla(0,0%,100%,.7);
+    font-family: 'Glimmer Medium';  
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-menu a:hover{
+    color: #fff;
+}
+.nav-item1, .nav-item2{
+    padding-right: 2.8em;
+}
+.hero-frame{
+padding-right: 1em;
+padding-top: 1em;
+}
+.hero-heading{
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Glimmer Bold';
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top:  2.1em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.hero-paragraph{
+    box-sizing: border-box;
+    color: hsla(0,0%,100%,.7);
+    font-family: 'Glimmer Regular';
+    text-align: center;
+    word-wrap: break-word;
+    padding-left: 22em;
+    padding-right: 22em;
+    margin-top: -2rem;
+    font-size: 0.9rem;
+}
+.hero-btn{
+    box-sizing: border-box;
+    padding-left: 34em;
+    padding-top: 1.2em;
+}
+.dwn-btn{
+    box-sizing: border-box;
+    width: 8.4em;
+    background: none;
+    color: #fff;
+    font-family: 'Glimmer Bold';
+    font-size: 21px;
+    border: 1px solid #fff;
+    width: 12.5em;
+    height: 2.9em;
+    border-radius: 1000px;
+}
+.logo-tri{
+    box-sizing: border-box;
+    height: 0.7em;
+    width: 0.9em;
+}
+.sub-item2{
+    box-sizing: border-box;
+    background: #1d1922;
+    display: none;
+    width: 126px;
+    height: 100px;
+    flex-direction: column;
+    background: #1d1922;
+    border: 1px solid hsla(0,0%,100%,.2);
+    box-shadow: 0 0 24px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    align-items: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.nav-item2:hover ~ .sub-item2 {
+    display: block !important;
+}
+.it-3{
+    padding-top: 20px;
+    position: absolute;
+    box-sizing: border-box;
+    width: 126px;
+    height: 146px;
+    display: flex;
+    justify-content: space-evenly;
+}
