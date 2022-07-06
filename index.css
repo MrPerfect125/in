@@ -106,7 +106,7 @@ padding-top: 1em;
     background: #1d1922;
     display: none;
     width: 126px;
-    height: 100px;
+    height: 125px;
     flex-direction: column;
     background: #1d1922;
     border: 1px solid hsla(0,0%,100%,.2);
@@ -115,10 +115,16 @@ padding-top: 1em;
     border-radius: 12px;
     align-items: center;
     padding-top: 12px;
+    margin-top: 2.5em;
+    margin-left: -9em;
     padding-bottom: 12px;
+    position: absolute;
 }
 .nav-item2:hover ~ .sub-item2 {
-    display: block !important;
+    display: inline-block !important;
+    transition: all 2s ease-in;
+    transition-duration: 6s;
+    transition-delay: 6s;
 }
 .it-3{
     padding-top: 20px;
@@ -128,4 +134,26 @@ padding-top: 1em;
     height: 146px;
     display: flex;
     justify-content: space-evenly;
+}
+.sub-item-list{
+    display: grid;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+.sub-item-list a{
+    font-family: 'Glimmer Light';
+    font-size: 16px;
+}
+.sub-item-list:first-child{
+ padding-bottom: 20px;
+
+}
+.bg-vdo{
+    position: absolute;
+    margin: -2em 0 0 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    top:0;  
+    left:0;
 }
